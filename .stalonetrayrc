@@ -1,0 +1,6 @@
+pixmap_bg /home/xero/media/pictures/backgrounds/trayseamless.xpm
+dockapp_mode simple
+max_geometry 4x4
+geometry 4x1
+icon_size 22
+kludges force_icons_size

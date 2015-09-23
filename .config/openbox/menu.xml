@@ -1,0 +1,195 @@
+<openbox_menu>
+
+<menu id="root-menu" label="xCore">
+  <separator label="xCore" />
+    <menu id="apps" label="Apps">
+    <item label="GKrellM">
+      <action name="execute"><execute>gkrellm -w</execute></action>
+    </item>
+    <item label="KeePassX">
+      <action name="execute"><execute>keepassx</execute></action>
+    </item>
+    <item label="Xfburn">
+      <action name="execute"><execute>xfburn</execute></action>
+    </item>
+    <item label="VirtualBox">
+      <action name="execute"><execute>virtualbox</execute></action>
+    </item>
+    <item label="stopwatch">
+      <action name="execute"><execute>stopwatch</execute></action>
+    </item>
+    <item label="xterm">
+      <action name="execute"><execute>xterm -rv -fa terminus:size=14</execute></action>
+    </item>
+    <item label="dpms">
+      <action name="execute"><execute>bash -c "sleep 3 &amp;&amp; xset dpms force off &amp;&amp; sleep 6 &amp;&amp; xset dpms force off"</execute></action>
+    </item>
+      <menu id="import" label="Import">
+        <item label="root">
+	  <action name="execute"><execute>bash -c "sleep 5 &amp;&amp; import -window root -quality 90 ~/root.jpg"</execute></action>
+        </item>
+        <item label="window">
+          <action name="execute"><execute>import -frame ~/window.jpg -quality 90</execute></action>
+        </item>
+        <item label="root-png">
+	  <action name="execute"><execute>bash -c "sleep 5 &amp;&amp; import -window root -quality 100 ~/root.png"</execute></action>
+        </item>
+        <item label="window-png">
+          <action name="execute"><execute>import -frame ~/window.png -quality 100</execute></action>
+        </item>
+      </menu>
+      <menu id="text" label="Text">
+        <item label="CharMap">
+          <action name="execute"><execute>gnome-character-map</execute></action>
+        </item>
+        <item label="Evince">
+          <action name="execute"><execute>evince</execute></action>
+        </item>
+        <item label="Mousepad">
+          <action name="execute"><execute>mousepad</execute></action>
+        </item>
+      </menu>
+  </menu>
+  <menu id="games" label="Games">
+    <item label="Duke3D">
+      <action name="execute"><execute>jfduke3d</execute></action>
+    </item>
+    <item label="DukeHR">
+      <action name="execute"><execute>jfduke3d /ghr.zip /ghacks.zip</execute></action>
+    </item>
+    <item label="Quake III">
+      <action name="execute"><execute>quake3</execute></action>
+    </item>
+    <item label="Monopoly">
+      <action name="execute"><execute>xdosemu -I 'keystroke "\pnmonopoly\r"' -E 'cd monopoly'</execute></action>
+    </item>
+      <menu id="strategy" label="Stretegy">
+        <item label="Tetris">
+          <action name="execute"><execute>gnometris</execute></action>
+        </item>
+        <item label="Tetrinet">
+          <action name="execute"><execute>gtetrinet</execute></action>
+        </item>
+        <item label="Mahjongg">
+          <action name="execute"><execute>mahjongg</execute></action>
+        </item>
+        <item label="GnoMine">
+          <action name="execute"><execute>gnomine</execute></action>
+        </item>
+        <item label="Klotski">
+          <action name="execute"><execute>gnotski</execute></action>
+        </item>
+        <item label="IceBreaker">
+          <action name="execute"><execute>icebreaker</execute></action>
+        </item>
+        <item label="Nibbles">
+          <action name="execute"><execute>gnibbles</execute></action>
+        </item>
+      </menu>
+      <menu id="racing" label="Racing">
+        <item label="SkiFree">
+          <action name="execute"><execute>wine c:\ski.exe</execute></action>
+        </item>
+        <item label="TuxRacer">
+          <action name="execute"><execute>tuxracer</execute></action>
+        </item>
+        <item label="glTRON">
+          <action name="execute"><execute>gltron</execute></action>
+        </item>
+      </menu>
+      <menu id="snes" label="SNES" execute="~/misc/scripts/roms" />
+      <menu id="doom" label="DOOM">
+        <item label="DOOM">
+          <action name="execute"><execute>prboom -iwad ~/media/roms/doom/doom.wad</execute></action>
+        </item>
+        <item label="DOOM2">
+          <action name="execute"><execute>prboom -iwad ~/media/roms/doom/doom2.wad</execute></action>
+        </item>
+        <item label="DOOM3">
+          <action name="execute"><execute>doom3</execute></action>
+        </item>
+        <item label="TNT">
+          <action name="execute"><execute>prboom -iwad ~/media/roms/doom/tnt.wad</execute></action>
+        </item>
+        <item label="Plutonia">
+          <action name="execute"><execute>prboom -iwad ~/media/roms/doom/plutonia.wad</execute></action>
+        </item>
+      </menu>	
+  </menu>
+  <menu id="network" label="Network">
+    <item label="Pidgin">
+      <action name="execute"><execute>pidgin</execute></action>
+    </item>
+    <item label="Chrome">
+      <action name="execute"><execute>google-chrome-unstable</execute></action>
+    </item>
+    <item label="Firefox">
+      <action name="execute"><execute>firefox</execute></action>
+    </item>
+    <item label="Opera">
+      <action name="execute"><execute>opera</execute></action>
+    </item>
+      <menu id="p2p" label="P2P">
+        <item label="SoulseekQT">
+          <action name="execute"><execute>soulseekqt</execute></action>
+        </item>
+        <item label="Transmission">
+          <action name="execute"><execute>transmission-gtk</execute></action>
+        </item>
+      </menu>
+      <menu id="KT" label="KT">
+        <item label="Pidgin">
+          <action name="execute"><execute>pidgin --config=/home/xero/.purplekt</execute></action>
+        </item>
+        <item label="Chrome">
+          <action name="execute"><execute>google-chrome-unstable --user-data-dir=/home/xero/.config/google-chrome-unstablekt</execute></action>
+        </item>
+      </menu>
+  </menu>
+  <menu id="media" label="Media">
+    <item label="Audacious">
+      <action name="execute"><execute>audacious</execute></action>
+    </item>
+    <item label="Spotify">
+      <action name="execute"><execute>spotify</execute></action>
+    </item>
+    <item label="The GIMP">
+      <action name="execute"><execute>gimp</execute></action>
+    </item>
+    <item label="Mixer">
+      <action name="execute"><execute>echomixer</execute></action>
+    </item>
+    <item label="PA Mixer">
+      <action name="execute"><execute>pavucontrol</execute></action>
+    </item>
+  </menu>
+<separator />
+  <menu id="config" label="Config">
+    <item label="Restart">
+      <action name="restart" />
+    </item>
+    <item label="Reconfig">
+      <action name="reconfigure" />
+    </item>
+    <item label="OBConf">
+      <action name="execute"><execute>obconf</execute></action>
+    </item>
+    <item label="XFCE4">
+      <action name="execute"><execute>xfce4-settings-manager</execute></action>
+    </item>
+    <menu id="thememenu" label="Themes" execute="~/misc/scripts/theme menu" />
+    <menu id="bgmenu" label="BGs" execute="~/misc/scripts/bg menu" />
+  </menu>
+  <item label="Run">
+    <action name="execute"><execute>xfrun4</execute></action>
+  </item>
+  <item label="Term">
+    <action name="execute"><execute>xfce4-terminal</execute></action>
+  </item>
+  
+  <item label="Exit">
+    <action name="execute"><execute>xfce4-session-logout</execute></action>
+  </item>
+</menu>
+
+</openbox_menu>

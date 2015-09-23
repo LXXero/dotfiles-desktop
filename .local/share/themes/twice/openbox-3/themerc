@@ -1,0 +1,81 @@
+
+menu.title.bg:			flat crossdiagonal gradient
+menu.title.bg.color:		rgb:c/6/6
+menu.title.bg.colorTo:		rgb:6/3/3
+menu.title.text.color:		white
+menu.title.text.justify:	right
+
+menu.items.bg:			flat crossdiagonal gradient
+menu.items.bg.color:		grey40
+menu.items.bg.colorTo:		grey20
+menu.items.text.color:		grey85
+menu.items.disabled.text.color:	rgb:4/2/2
+menu.items.justify:		center
+
+menu.bullet.position:		right
+
+menu.items.active.bg:		flat crossdiagonal gradient
+menu.items.active.bg.color:	rgb:c/6/6
+menu.items.active.bg.colorTo:	rgb:6/3/3
+menu.items.active.text.color:	white
+
+window.active.title.bg:		flat diagonal gradient
+window.active.title.bg.color:	rgb:c/6/6
+window.active.title.bg.colorTo:	rgb:8/4/4
+window.inactive.title.bg:	flat solid
+window.inactive.title.bg.color:	grey30
+
+window.active.label.bg:			flat crossdiagonal gradient
+window.active.label.bg.color:		grey40
+window.active.label.bg.colorTo:		grey20
+window.active.label.text.color:		white
+window.inactive.label.bg:		flat crossdiagonal gradient
+window.inactive.label.bg.color:		grey30
+window.inactive.label.bg.colorTo:	grey20
+window.inactive.label.text.color:	grey60
+
+window.active.button.unpressed.bg:		flat diagonal gradient
+window.active.button.unpressed.bg.color:	rgb:8/4/4
+window.active.button.unpressed.bg.colorTo:	rgb:a/5/5
+window.active.button.unpressed.image.color:	rgb:4/2/2
+window.inactive.button.unpressed.bg:		flat solid
+window.inactive.button.unpressed.bg.color:	grey30
+window.inactive.button.unpressed.image.color:	grey20
+window.active.button.pressed.bg:		flat crossdiagonal gradient
+window.inactive.button.pressed.bg:		flat crossdiagonal gradient
+window.button.pressed.bg.color:			grey40
+window.button.pressed.bg.colorTo:		grey20
+
+window.active.button.disabled.bg:		flat diagonal gradient
+window.active.button.disabled.bg.color:		rgb:8/4/4
+window.active.button.disabled.bg.colorTo:	rgb:a/5/5
+window.active.button.disabled.image.color:	#944a4a
+window.inactive.button.disabled.bg:		parentrelative
+window.inactive.button.disabled.image.color:	grey30
+
+window.active.handle.bg:		flat crossdiagonal gradient
+window.active.handle.bg.color:		rgb:c/6/6
+window.active.handle.bg.colorTo:	rgb:6/3/3
+window.inactive.handle.bg:		flat solid
+window.inactive.handle.bg.color:	grey30
+
+window.active.grip.bg:			flat crossdiagonal gradient
+window.active.grip.bg.color:		grey40
+window.active.grip.bg.colorTo:		grey20
+window.inactive.grip.bg:		flat crossdiagonal gradient
+window.inactive.grip.bg.color:		grey30
+window.inactive.grip.bg.colorTo:	grey20
+
+window.active.client.color:	rgb:c/6/6
+window.inactive.client.color:	grey30
+
+window.label.text.justify:	right
+
+border.color:			grey10
+
+padding.width:			1
+border.width:			2
+window.handle.width:		4
+
+*text.color:			grey85
+*Font:				sans-10
